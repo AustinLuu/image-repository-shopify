@@ -5,15 +5,19 @@
   --secondary: #4e4e4e;
   --error: #ff4a4a;
 }
-
+html { background-color:#444444;}
 /* base styles & title */
 body{
   font-family: "Noto Serif";
   color: var(--secondary);
+  margin:0px 50px; 
+  background-color: white;
 }
 .App{
   max-width: 960px;
   margin: 0 auto;
+  padding: 1em;
+  color: #4e4e4e;
 }
 .title h1{
   color: var(--primary);
