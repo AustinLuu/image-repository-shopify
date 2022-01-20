@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Title = () => {
+const Header = () => {
   return (
     <div className="title">
       <h1>Photobook</h1>
@@ -10,4 +10,4 @@ const Title = () => {
   )
 }
 
-export default Title;
+export default Header;
